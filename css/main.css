@@ -84,7 +84,7 @@ img {
     transition: all 0.3s ease 0s;
 }
 
-img:hover {
+img:hover{
     opacity:0.8;
 }
 
@@ -98,11 +98,11 @@ img:hover {
 .foot {
     height: 10%;
     width: 85%;
+    padding-top: 10%;
+    padding-bottom: 10%;
  }
 
 .social {
-    padding-top:5%;
-    padding-bottom:5%;  
     text-align:center;
     font-size:20px;
 }
