@@ -1,0 +1,87 @@
+html, body {
+    margin:0 auto;
+    height: 100%;
+    width: 60%;
+    font-family: 'Franklin Gothic Book', sans-serif;
+    position: center;
+}
+h1 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+h2 {
+    float: left;
+    clear: left;
+    font-size: 20px;
+    font-style: bold;
+}
+h3 {
+    font-size: 16px;
+    font-style: italic;
+    float: right;
+}
+
+p { 
+    font-size: 14px;
+    text-align: justify;
+}
+
+a, .social a { 
+    color: #FF9999;
+    text-decoration: none;
+}
+
+a { 
+    font-size: inherit;
+    transition: all 0.3s ease 0s;
+}
+
+a:hover, .social a:hover { 
+    color: inherit;   
+}
+
+.head{
+    margin-bottom: 20px;
+}
+
+.container {
+
+}
+
+.about { 
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -350px;
+    margin-left: -300px;
+    width: 600px;
+    height: 200px;     
+    text-align: center;
+}
+
+.foot {
+ }
+
+.social {
+    height:40px;
+    padding-top:40px;
+    padding-bottom:40px;  
+    text-align:center;
+    font-size:30px;
+}
+.gamesquare {
+    float: left;
+    margin-right: 10px;
+    clear: left;
+}
+
+.event {
+    margin-top: ;
+    margin-bottom: 50px;
+}
+
+.game {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
