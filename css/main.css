@@ -1,25 +1,26 @@
 html, body {
     margin:0 auto;
+    margin-top: 10%;
     height: 100%;
-    width: 60%;
+    width: 80%;
     font-family: 'Franklin Gothic Book', sans-serif;
     position: center;
 }
 h1 {
     font-weight: 300;
     font-size: 36px;
+    text-align: center; 
 }
 
 h2 {
     float: left;
-    clear: left;
-    font-size: 20px;
+    font-size: 18px;
     font-style: bold;
 }
 h3 {
-    font-size: 16px;
-    font-style: italic;
     float: right;
+    font-size: 14px;
+    font-style: italic;
 }
 
 p { 
@@ -41,8 +42,30 @@ a:hover, .social a:hover {
     color: inherit;   
 }
 
-.head{
-    margin-bottom: 20px;
+table {
+    width: 80%;
+}
+
+.head {
+    margin-bottom: 10%;
+}
+
+.top {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.face{
+    float: left;
+    clear: ;
+}
+
+.acb {
+    text-align: center;
+}
+
+.navigation {
+    text-align: center;
 }
 
 .container {
@@ -50,8 +73,8 @@ a:hover, .social a:hover {
 }
 
 .about { 
-    position: absolute;
-    top: 40%;
+    /*position: absolute;*/
+    top: 40%;   
     left: 50%;
     margin-top: -350px;
     margin-left: -300px;
@@ -77,8 +100,8 @@ a:hover, .social a:hover {
 }
 
 .event {
-    margin-top: ;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
+    clear: both;
 }
 
 .game {
