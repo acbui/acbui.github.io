@@ -2,7 +2,9 @@ html, body {
     margin:0 auto;
     margin-top: 3%;
     height: 100%;
-    width: 80%;
+    padding-left: 3%;
+    padding-right: 3%;
+
     font-family: 'Franklin Gothic Book', sans-serif;
     position: center;
 }
@@ -27,10 +29,11 @@ h3 {
 p { 
     font-size: 14px;
     text-align: justify;
+    line-height: 1.5;
 }
 
 a, .social a { 
-    color: #FF9999;
+    color: #FF6699;
     text-decoration: none;
 }
 
@@ -54,12 +57,17 @@ table {
 }
 
 .face{
-    float: left;
-    clear: ;
+    float: right;
 }
 
 .acb {
     text-align: center;
+}
+
+/* ABOUT PAGE */
+.aboutacb {
+    margin-top: 8%;
+    margin-bottom: 3%;
 }
 
 .navigation {
@@ -67,10 +75,11 @@ table {
 }
 
 .container {
-
+    width: 85%;
 }
 
 .about {  
+    float:left;
     text-align: center;
 }
 
@@ -98,7 +107,7 @@ img:hover{
 .foot {
     height: 10%;
     width: 85%;
-    padding-top: 10%;
+    padding-top: 8%;
     padding-bottom: 10%;
  }
 
