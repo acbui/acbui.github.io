@@ -10,7 +10,7 @@ html, body {
 h1 {
     font-weight: 300;
     font-size: 36px;
-    text-align: center; 
+    text-align: left; 
 }
 
 h2 {
@@ -52,7 +52,7 @@ table {
 
 .top {
     margin-top: 0;
-    margin-bottom: 1%;
+    margin-bottom: %1;
 }
 
 .face{
@@ -60,7 +60,7 @@ table {
 }
 
 .acb {
-    text-align: center;
+    text-align: left;
 }
 
 /* ABOUT PAGE */
@@ -79,7 +79,6 @@ table {
 
 .about {  
     float:left;
-    text-align: center;
 }
 
 .gamesquare {
