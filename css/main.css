@@ -55,7 +55,7 @@ img {
     transition: all 0.3s ease 0s;
 }
 
-img:hover{
+img#link:hover{
     opacity:0.8;
 }
 
