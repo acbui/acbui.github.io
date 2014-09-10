@@ -59,6 +59,12 @@ img#link:hover{
     opacity:0.8;
 }
 
+.gamedescription {
+    display: none;
+    line-height: 1.5;
+    position: relative;
+}
+
 
 .top {
     margin-top: 0;
@@ -103,16 +109,11 @@ img#link:hover{
 }
 
 .gamesquare {
-    float: left;
     margin-right: 10px;
-    clear: left;
 }
 
 .event {
     clear: both;
-}
-
-.game {
 }
 
 .foot {
