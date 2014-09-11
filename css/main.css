@@ -55,6 +55,11 @@ img {
     transition: all 0.3s ease 0s;
 }
 
+img#games {
+    width: 100%;
+    height: auto;
+}
+
 img#link:hover{
     opacity:0.8;
 }
