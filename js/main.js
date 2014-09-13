@@ -24,5 +24,13 @@ $(document).ready(function(){
     	}
     });
 
+	//$('.fadeslideshow img:gt(0)').hide();
+
+	setInterval(function () {
+	    $('.fadeslideshow :first-child').fadeOut()
+	                             .next('img')
+	                             .fadeIn()
+	                             .end()
+	                             .appendTo('.fadeslideshow');
+	}, 5000); // 4 seconds
 });
-    

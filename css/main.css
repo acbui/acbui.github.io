@@ -55,6 +55,7 @@ a:hover, .social a:hover {
 table {
     width: 85%;
     border-collapse: collapse;
+    background-color: white;
 }
 
 img {
@@ -70,9 +71,19 @@ img#link:hover{
     opacity:0.8;
 }
 
+.fadeslideshow {
+    position:relative;
+    
+}
+
+.fadeslideshow img {
+    position:absolute;
+}
+
 .gamedescription {
     display: none;
     line-height: 1.5;
+    margin-bottom: 5%;
     position: relative;
 }
 
