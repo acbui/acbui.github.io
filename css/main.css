@@ -70,6 +70,20 @@ img#games {
 img#link:hover{
     opacity:0.8;
 }
+.gifs {
+    text-align: center;
+    clear:both;
+}
+
+img#gif {
+    clear: right;
+    width: 32%;
+    height: auto;
+}
+
+img#maingif {
+    clear: both;
+}
 
 .fadeslideshow {
     position:relative;
