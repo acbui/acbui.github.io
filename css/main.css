@@ -86,12 +86,12 @@ img#maingif {
 }
 
 .fadeslideshow {
-    position:relative;
+    /*position:relative;*/
     
 }
 
 .fadeslideshow img {
-    position:absolute;
+    /*position:absolute;*/
 }
 
 .gamedescription {
