@@ -55,6 +55,7 @@ a:hover, .social a:hover {
 table {
     width: 85%;
     border-collapse: collapse;
+    background-color: white;
 }
 
 img {
@@ -66,6 +67,9 @@ img#games {
     height: auto;
 }
 
+img#link:hover{
+    opacity:0.8;
+}
 .gifs {
     text-align: center;
     clear:both;
@@ -81,17 +85,19 @@ img#maingif {
     clear: both;
 }
 
-img#link:hover{
-    opacity:0.8;
+.fadeslideshow {
+    /*position:relative;*/
+    
 }
 
-tr {
-    position: relative;
+.fadeslideshow img {
+    /*position:absolute;*/
 }
 
 .gamedescription {
     display: none;
     line-height: 1.5;
+    margin-bottom: 5%;
     position: relative;
 }
 

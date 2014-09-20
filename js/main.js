@@ -24,5 +24,24 @@ $(document).ready(function(){
     	}
     });
 
+	//$('.fadeslideshow img:gt(0)').hide();
+
+	/*setInterval(function () {
+	    $('.fadeslideshow :first-child').fadeOut()
+	                             .next('img')
+	                             .fadeIn()
+	                             .end()
+	                             .appendTo('.fadeslideshow');
+	}, 4000); // 4 seconds
+	*/
+	/*$(function(){
+		$('img#games').each(function(e){
+    		var src = $(e).attr('src');
+    		$(e).hover(function(){
+      			$(this).attr('src', src.replace('.gif', '_anim.gif'));
+    		}, function(){
+      			$(this).attr('src', src);
+    		});
+  		});
+	});*/
 });
-    
