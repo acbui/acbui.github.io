@@ -85,6 +85,12 @@ img#maingif {
     clear: both;
 }
 
+video {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
 .fadeslideshow {
     /*position:relative;*/
     
