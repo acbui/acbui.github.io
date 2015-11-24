@@ -4,11 +4,13 @@ html, body {
 
     font-family: 'Franklin Gothic Book', sans-serif;
     position: center;
+
+    padding-bottom: 2%;
 }
 h1 {
     font-weight: 300;
     font-size: 36px;
-    text-align: left; 
+    text-align: left;
     margin-bottom: 1%;
 }
 
@@ -24,7 +26,7 @@ h3 {
     font-style: italic;
 }
 
-p { 
+p {
     font-size: 14px;
     text-align: justify;
     line-height: 1.5;
@@ -36,18 +38,18 @@ ul {
     line-height: 1.5;
 }
 
-a, .social a { 
+a, .social a {
     color: #FF6699;
     text-decoration: none;
 }
 
-a { 
+a {
     font-size: inherit;
     transition: all 0.3s ease 0s;
 }
 
-a:hover, .social a:hover { 
-    color: inherit;   
+a:hover, .social a:hover {
+    color: inherit;
 }
 
 table {
@@ -99,7 +101,7 @@ video {
 
 .fadeslideshow {
     /*position:relative;*/
-    
+
 }
 
 .fadeslideshow img {
@@ -152,7 +154,7 @@ video {
     width: 100%;
 }
 
-.about {  
+.about {
     float:left;
 }
 
@@ -177,5 +179,5 @@ video {
  #wrap
  {
     width: 800px;
-    margin: 0 auto;    
+    margin: 0 auto;
  }
